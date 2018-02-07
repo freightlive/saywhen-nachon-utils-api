@@ -61,14 +61,14 @@ SayWhenNachonUtils\Configuration::getDefaultConfiguration()->setApiKey('ApiKey',
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 // SayWhenNachonUtils\Configuration::getDefaultConfiguration()->setApiKeyPrefix('ApiKey', 'Bearer');
 
-$api_instance = new SayWhenNachonUtils\Api\FilterApi();
+$api_instance = new SayWhenNachonUtils\Api\UtilsApi();
 $body = new \SayWhenNachonUtils\Model\GetDeliveryFloorModelPostModel(); // \SayWhenNachonUtils\Model\GetDeliveryFloorModelPostModel | GetDeliveryFloorModelPostModel
 
 try {
     $result = $api_instance->getDeliveryFloor($body);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling FilterApi->getDeliveryFloor: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling UtilsApi->getDeliveryFloor: ', $e->getMessage(), PHP_EOL;
 }
 
 ?>
@@ -80,7 +80,7 @@ All URIs are relative to *https://link.saywhen.nl/api/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*FilterApi* | [**getDeliveryFloor**](docs/Api/FilterApi.md#getdeliveryfloor) | **POST** /nachon/utils/get-delivery-floor | GetDeliveryFloor from SurveyResults
+*UtilsApi* | [**getDeliveryFloor**](docs/Api/UtilsApi.md#getdeliveryfloor) | **POST** /nachon/utils/get-delivery-floor | GetDeliveryFloor from SurveyResults
 
 
 ## Documentation For Models
