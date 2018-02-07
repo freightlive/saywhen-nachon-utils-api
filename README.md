@@ -76,7 +76,7 @@ try {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://link.saywhen.nl/api/v1*
+All URIs are relative to *https://link.saywhen.nl/api/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
